@@ -23,7 +23,10 @@ ip = IPython.ipapi.get()
 
 # You probably want to uncomment this if you did %upgrade -nolegacy
 # import ipy_defaults    
-import os   
+import os
+
+import rlcompleter2
+rlcompleter2.setup()
 
 def main():   
 

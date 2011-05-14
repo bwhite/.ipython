@@ -515,7 +515,7 @@ import_mod sys os pickle base64 random subprocess glob hadoopy Image json
 # If you have more than one modules_some line, each gets its own try/except
 # block (like modules, see above).
 
-import_some 
+import_some see see
 
 #---------------------------------------------------------------------------
 # Section: modules to import all from : 'from ... import *'
